@@ -183,7 +183,8 @@ class Main
    
     public static void main(String[] args) 
     {    
-    	double lamda = 1;  
+    	double lamda = 1; 
+        int count = 0; 
         Vector allState = new Vector();
         allState.add(gx12345);
         
@@ -231,7 +232,7 @@ class Main
 	       	   
         	   
         	   
-        	   //if (i==0) System.out.println(allState2.size());
+        	   count += allState2.size();
         	   
         	   if(i == 0)
         	     {
@@ -281,6 +282,6 @@ class Main
     	   	   }
     	     if(i==0)	System.out.println(" lamda = " + lamda);         	
     	} 
-    	System.out.println("                           lamda = " + lamda);      
+    	System.out.println("                           lamda = " + lamda + "; count = " + count);      
  }
 }
