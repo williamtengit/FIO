@@ -12,9 +12,12 @@ the set of crisp states. A fuzzy state is represented as a row vector.
 Suppose the set of cloaking regions obtained by the intruder is $\mathcal{CR} = \big \{ CR_{1} = \{ x_{1}, x_{2}, x_{3} \}, CR_{2} = \{ x_{3}, x_{4}, x_{5}\}  \big \}$.
 Let the events $\widetilde{cr}^{i}_{j}$, $i,j \in \{1, 2\}$, represent the case that the user moves from the $i^{th}$ cloaking region to the $j^{th}$ cloaking region.
 Assume by the model learning algorithm, the intruder obtain the event matrices $A_{\widetilde{cr}^{1}_{1}}$, $A_{\widetilde{cr}^{1}_{2}}$, $A_{\widetilde{cr}^{2}_{1}}$ and $A_{\widetilde{cr}^{2}_{2}}$, respectively,
+
  $$
  \left[
+ 
   \begin{array}{cccccc}
+  
     0.4 & 1   &  1   & 0 & 0                   \\
     
     0.6 & 1   &  0.8 & 0 & 0                   \\
@@ -24,10 +27,15 @@ Assume by the model learning algorithm, the intruder obtain the event matrices $
     0   & 0   &  0   & 0 & 0                   \\
     
     0   & 0   &  0   & 0 & 0                   \\
+    
   \end{array}
+  
 \right], ~~
+
    \left[
+   
   \begin{array}{cccccc}
+  
     0           & 0           & 0            & 0           & 0         \\
     
     0           & 0           & 0.4          & 1           & 0         \\
@@ -38,11 +46,16 @@ Assume by the model learning algorithm, the intruder obtain the event matrices $
     
     0           & 0           & 0            & 0           & 0         \\
   \end{array}
+  
 \right],
 $$
+
  $$
+ 
  \left[
+ 
   \begin{array}{cccccc}
+  
     0           & 0           & 0       & 0   & 0                    \\
     
     0           & 0           & 0       & 0   & 0                    \\
@@ -53,9 +66,15 @@ $$
     
     0           & 0           & 1       & 0   & 0                    \\
   \end{array}
-\right] \text{and}
+  
+\right] 
+
+\text{and}
+
    \left[
+   
   \begin{array}{cccccc}
+  
     0           & 0           & 0   & 0     & 0             \\
     
     0           & 0           & 0   & 0     & 0             \\
@@ -66,8 +85,11 @@ $$
     
     0           & 0           &1    & 0     & 0.6           \\
   \end{array}
+  
 \right],
+
 $$
+
 and the initial state $\widetilde{x}_{0} = [0.8, 1.0, 0.6,0.2, 0.1]$.
 
 The FIO Measure is defined to characterize the privacy protection situation of PPMs. This project is used to calculate the FIO Measure of the model $G$
