@@ -16,18 +16,26 @@ Assume by the model learning algorithm, the intruder obtain the event matrices $
  \left[
   \begin{array}{cccccc}
     0.4 & 1   &  1   & 0 & 0                   \\
+    
     0.6 & 1   &  0.8 & 0 & 0                   \\
+    
     1   & 0.8 &  0.6 & 0 & 0                   \\
+    
     0   & 0   &  0   & 0 & 0                   \\
+    
     0   & 0   &  0   & 0 & 0                   \\
   \end{array}
 \right], ~~
    \left[
   \begin{array}{cccccc}
     0           & 0           & 0            & 0           & 0         \\
+    
     0           & 0           & 0.4          & 1           & 0         \\
+    
     0           & 0           & 1            & 0.6         & 1         \\
+    
     0           & 0           & 0            & 0           & 0         \\
+    
     0           & 0           & 0            & 0           & 0         \\
   \end{array}
 \right],
@@ -36,18 +44,26 @@ $$
  \left[
   \begin{array}{cccccc}
     0           & 0           & 0       & 0   & 0                    \\
+    
     0           & 0           & 0       & 0   & 0                    \\
+    
     0           & 0.2         & 0.2     & 0   & 0                    \\
+    
     0           & 1           & 0.8     & 0   & 0                    \\
+    
     0           & 0           & 1       & 0   & 0                    \\
   \end{array}
 \right] \text{and}
    \left[
   \begin{array}{cccccc}
     0           & 0           & 0   & 0     & 0             \\
+    
     0           & 0           & 0   & 0     & 0             \\
+    
     0           & 0           &0.6  & 0.4   & 1             \\
+    
     0           & 0           &0.8  & 1     & 0             \\
+    
     0           & 0           &1    & 0     & 0.6           \\
   \end{array}
 \right],
